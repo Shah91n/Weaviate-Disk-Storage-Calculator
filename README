@@ -8,77 +8,77 @@
 
 ### Parameter-Based Storage Calculation
 - Estimate storage requirements based on:
-    - Number of objects
-    - Vector dimensions
-    - Average object size
-    - Vector quantization methods
+  - Number of objects
+  - Vector dimensions
+  - Average object size
+  - Vector quantization methods
 - Supports different quantization methods:
-    - **None** (32-bit float)
-    - **Scalar Quantization (SQ)**
-    - **Product Quantization (PQ)**
-    - **Binary Quantization (BQ)**
+  - **None** (32-bit float)
+  - **Scalar Quantization (SQ)**
+  - **Product Quantization (PQ)**
+  - **Binary Quantization (BQ)**
 - Provides a detailed breakdown of storage components:
-    - Raw object storage
-    - Vector storage
-    - Searchable properties storage
+  - Raw object storage
+  - Vector storage
+  - Searchable properties storage
 
 ### Compression Comparison
-- Compare storage savings and quality impact of different quantization methods.
-- Visualize storage requirements for each method.
+- Compare storage savings and quality impact of different quantization methods
+- Visualize storage requirements for each method
 
 ### Extrapolation from Sample Data
-- Predict storage requirements for larger datasets based on a sample dataset.
-- Supports both **linear** and **sublinear** extrapolation models.
+- Predict storage requirements for larger datasets based on a sample dataset
+- Supports both **linear** and **sublinear** extrapolation models
 
 ### Interactive Visualizations
-- Storage breakdown charts.
-- Compression comparison charts.
-- Extrapolation projection charts.
+- Storage breakdown charts
+- Compression comparison charts
+- Extrapolation projection charts
 
 ---
 
 ## Installation
 
 1. **Clone the repository**:
-     ```bash
-     git clone https://github.com/your-repo/Weaviate-Disk-Storage-Calculator.git
-     cd Weaviate-Disk-Storage-Calculator
-     ```
+   ```bash
+   git clone https://github.com/your-repo/Weaviate-Disk-Storage-Calculator.git
+   cd Weaviate-Disk-Storage-Calculator
+   ```
 
 2. **Install the required dependencies**:
-     ```bash
-     pip install -r requirements.txt
-     ```
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 3. **Run the application**:
-     ```bash
-     streamlit run Streamlit_app.py
-     ```
+   ```bash
+   streamlit run Streamlit_app.py
+   ```
 
 ---
 
 ## Usage
 
-1. Open the application in your browser.
+1. Open the application in your browser
 2. Navigate between the tabs:
-     - **📊 Parameter-Based Calculation**: Input data characteristics to calculate storage requirements.
-     - **📈 Extrapolate from Sample**: Use a sample dataset to predict storage for larger datasets.
-3. Explore the visualizations and metrics to understand storage requirements.
+   - **📊 Parameter-Based Calculation**: Input data characteristics to calculate storage requirements
+   - **📈 Extrapolate from Sample**: Use a sample dataset to predict storage for larger datasets
+3. Explore the visualizations and metrics to understand storage requirements
 
 ---
 
 ## Notes on Compression Methods
 
-- **Scalar Quantization (SQ)**: Reduces vector size by 75% with minimal quality loss (~5%).
-- **Product Quantization (PQ)**: Segments vectors into 8-bit integers for efficient storage.
-- **Binary Quantization (BQ)**: Compresses vectors to 1 bit per dimension, offering the highest compression but with significant accuracy trade-offs.
+- **Scalar Quantization (SQ)**: Reduces vector size by 75% with minimal quality loss (~5%)
+- **Product Quantization (PQ)**: Segments vectors into 8-bit integers for efficient storage
+- **Binary Quantization (BQ)**: Compresses vectors to 1 bit per dimension, offering the highest compression but with significant accuracy trade-offs
 
 ---
 
 ## Extrapolation Models
 
-- **Linear Extrapolation**: Assumes storage grows proportionally with the number of objects.
-- **Sublinear Scaling**: Reflects Weaviate's tendency to scale more efficiently with larger datasets.
+- **Linear Extrapolation**: Assumes storage grows proportionally with the number of objects
+- **Sublinear Scaling**: Reflects Weaviate's tendency to scale more efficiently with larger datasets
 
 ---
 
