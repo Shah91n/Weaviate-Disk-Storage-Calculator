@@ -1,6 +1,6 @@
 # Weaviate Disk Storage Calculator
 
-**Weaviate Disk Storage Calculator** is a Streamlit-based application designed to estimate storage requirements for the Weaviate vector database. It provides insights into storage needs based on data characteristics and allows for extrapolation from sample datasets.
+**Weaviate Disk Storage Calculator** is a designed to estimate storage requirements for the Weaviate vector database. It provides insights into storage needs based on data characteristics and allows for extrapolation from sample datasets.
 
 ---
 
