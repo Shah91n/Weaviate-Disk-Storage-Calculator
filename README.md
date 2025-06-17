@@ -6,9 +6,8 @@
   Visit Weaviate Disk Storage Calculator
 </a>
 
-<img width="1910" alt="image" src="https://github.com/user-attachments/assets/41b0c172-d4b2-4c7f-8881-774e9e931bcd" />
-
----
+<img width="1790" alt="image" src="https://github.com/user-attachments/assets/bad8da29-1062-4fdf-b575-277a7afe4aa4" />
+<img width="1823" alt="image" src="https://github.com/user-attachments/assets/36523af3-96cf-4b29-952f-8f3f67e28761" />
 
 ## Features
 
