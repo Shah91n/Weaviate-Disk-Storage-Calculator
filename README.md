@@ -61,9 +61,9 @@
 
 1. Open the application in your browser
 2. Navigate between the tabs:
-   - **📊 Parameter-Based Calculation**: Input data characteristics to calculate storage requirements
-   - **📈 Extrapolate from Sample**: Use a sample dataset to predict storage for larger datasets
-3. Explore the visualizations and metrics to understand storage requirements
+   - **📊 Parameter-Based Calculation**: Input data characteristics to calculate storage
+   - **📈 Extrapolate from current Dataset**: Use your existing dataset to predict storage for growth
+3. Explore the visualizations and metrics to understand storage
 
 ---
 
@@ -72,13 +72,6 @@
 - **Scalar Quantization (SQ)**: Reduces vector size by 75% with minimal quality loss (~5%)
 - **Product Quantization (PQ)**: Segments vectors into 8-bit integers for efficient storage
 - **Binary Quantization (BQ)**: Compresses vectors to 1 bit per dimension, offering the highest compression but with significant accuracy trade-offs
-
----
-
-## Extrapolation Models
-
-- **Linear Extrapolation**: Assumes storage grows proportionally with the number of objects
-- **Sublinear Scaling**: Reflects Weaviate's tendency to scale more efficiently with larger datasets
 
 ---
 
