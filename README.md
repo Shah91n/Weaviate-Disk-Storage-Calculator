@@ -7,12 +7,11 @@
 
 **Weaviate Disk Storage Calculator** is a tool designed to estimate disk storage requirements for the Weaviate vector database. It provides insights into storage usage based on your data characteristics and allows for extrapolation from existing datasets. The calculator offers a detailed breakdown of storage components, including objects, vector indexes, and inverted indexes, to help you plan capacity accurately.
 
+<img width="1847" height="772" alt="image" src="https://github.com/user-attachments/assets/51149386-a6e2-41bb-98f0-b0ca2d10cb3b" />
+
 <a href="https://weaviate-disk-calculator.streamlit.app/">
   Visit Weaviate Disk Storage Calculator
 </a>
-
-<img width="1790" alt="image" src="https://github.com/user-attachments/assets/bad8da29-1062-4fdf-b575-277a7afe4aa4" />
-<img width="1823" alt="image" src="https://github.com/user-attachments/assets/36523af3-96cf-4b29-952f-8f3f67e28761" />
 
 ## Features
 
