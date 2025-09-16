@@ -1,15 +1,11 @@
 # Weaviate Disk Storage Calculator
 
-<<<<<<< HEAD
-**Weaviate Disk Storage Calculator** is a designed to estimate disk storage for the Weaviate vector database. It provides insights into storage based on data characteristics and allows for extrapolation from existing dataset.
-=======
 [![Weaviate](https://img.shields.io/static/v1?label=for&message=Weaviate%20%E2%9D%A4&color=green&style=flat-square)](https://weaviate.io/)
-[![GitHub Repo stars](https://img.shields.io/github/stars/Shah91n/Weaviate-Disk-Storage-Calculator?style=social)](https://github.com/Shah91n/Weaviate-Memory-CPU-Calculator)
-[![Streamlit App](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://weaviate-memory-cpu-calculator.streamlit.app/)
+[![GitHub Repo stars](https://img.shields.io/github/stars/Shah91n/Weaviate-Disk-Storage-Calculator?style=social)](https://github.com/Shah91n/Weaviate-Disk-Storage-Calculator)
+[![Streamlit App](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://weaviate-disk-calculator.streamlit.app/)
 [![Python](https://img.shields.io/badge/Python-3.8+-blue?style=flat-square&logo=python&logoColor=white)](https://python.org)
 
-**Weaviate Disk Storage Calculator** is a tool designed to provide estimations for Weaviate vector database storage requirements. It offers a breakdown of storage components, including objects, vector indexes, and inverted indexes, allowing for robust planning.
->>>>>>> 39a6184 (Code Refactor & Features added)
+**Weaviate Disk Storage Calculator** is a tool designed to estimate disk storage requirements for the Weaviate vector database. It provides insights into storage usage based on your data characteristics and allows for extrapolation from existing datasets. The calculator offers a detailed breakdown of storage components, including objects, vector indexes, and inverted indexes, to help you plan capacity accurately.
 
 <a href="https://weaviate-disk-calculator.streamlit.app/">
   Visit Weaviate Disk Storage Calculator
@@ -51,7 +47,7 @@
 
 1.  **Clone the repository**:
     ```bash
-    git clone [https://github.com/your-repo/Weaviate-Disk-Storage-Calculator.git](https://github.com/your-repo/Weaviate-Disk-Storage-Calculator.git)
+    git clone https://github.com/Shah91n/Weaviate-Disk-Storage-Calculator.git
     cd Weaviate-Disk-Storage-Calculator
     ```
 
@@ -62,7 +58,7 @@
 
 3.  **Run the application**:
     ```bash
-    streamlit run app.py
+    streamlit run streamlit_app.py
     ```
 
 ---
